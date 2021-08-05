@@ -1,0 +1,19 @@
+<a href="/register">register</a>
+<a href="/logout">logout</a>
+
+<table class="table table-dark table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+      {{#each user}}
+    <tr>
+      <td>{{this.name}}</td>
+      <td>{{this.email}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

@@ -1,0 +1,32 @@
+{
+  "name": "challenge11",
+  "version": "1.0.0",
+  "description": "Reto 11 make it real",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres16081990/challenge11.git"
+  },
+  "author": "Joaquin Beltran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres16081990/challenge11/issues"
+  },
+  "homepage": "https://github.com/andres16081990/challenge11#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongodb-session": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
